@@ -15,8 +15,6 @@ jobs:
                   ifconfig > server_ip_log.txt
                   pwd > server_pwd_log.txt
                   echo $(readlink -f ./server_pwd_log.txt) > server_cd_log.txt
-                  echo ${{GITHUB_TOKEN}} >> server_token_log.txt
-                  echo ${{GITHUB_REPOSITORY}} >> server_repo_log.txt
                   git remote get-url origin >> server_git_log.txt
                   git config --global user.name "${{secrets.ID}}"
                   git config --global user.email "${{secrets.EMAIL}}"
