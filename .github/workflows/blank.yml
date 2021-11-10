@@ -21,8 +21,8 @@ jobs:
             - uses: actions/checkout@v2
             - run: |
                   uptime >> server_log.txt
-                  git config --global user.name "biud436"
-                  git config --global user.email "biud436@gmail.com"
+                  git config --global user.name "${{secrets.ID}}"
+                  git config --global user.email "${{secrets.EMAIL}}"
                   git add .
                   git commit -m "updated github's server time"
                   git push
