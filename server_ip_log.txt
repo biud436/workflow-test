@@ -1,26 +1,26 @@
 docker0: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
         inet 172.17.0.1  netmask 255.255.0.0  broadcast 172.17.255.255
-        ether 02:42:b8:a5:d1:81  txqueuelen 0  (Ethernet)
+        ether 02:42:42:ef:d1:40  txqueuelen 0  (Ethernet)
         RX packets 0  bytes 0 (0.0 B)
         RX errors 0  dropped 0  overruns 0  frame 0
         TX packets 0  bytes 0 (0.0 B)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet 10.1.0.35  netmask 255.255.0.0  broadcast 10.1.255.255
-        inet6 fe80::222:48ff:fe4c:ad98  prefixlen 64  scopeid 0x20<link>
-        ether 00:22:48:4c:ad:98  txqueuelen 1000  (Ethernet)
-        RX packets 5329  bytes 6517839 (6.5 MB)
+        inet 10.1.0.47  netmask 255.255.0.0  broadcast 10.1.255.255
+        inet6 fe80::20d:3aff:fe5f:1649  prefixlen 64  scopeid 0x20<link>
+        ether 00:0d:3a:5f:16:49  txqueuelen 1000  (Ethernet)
+        RX packets 4941  bytes 6364917 (6.3 MB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 1145  bytes 416727 (416.7 KB)
+        TX packets 784  bytes 260826 (260.8 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
 lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
         inet 127.0.0.1  netmask 255.0.0.0
         inet6 ::1  prefixlen 128  scopeid 0x10<host>
         loop  txqueuelen 1000  (Local Loopback)
-        RX packets 158  bytes 18142 (18.1 KB)
+        RX packets 138  bytes 15960 (15.9 KB)
         RX errors 0  dropped 0  overruns 0  frame 0
-        TX packets 158  bytes 18142 (18.1 KB)
+        TX packets 138  bytes 15960 (15.9 KB)
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
