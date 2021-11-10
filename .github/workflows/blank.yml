@@ -19,7 +19,7 @@ jobs:
         steps:
             # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
             - uses: actions/checkout@v2
-              run: |
+            - run: |
                   uptime >> server_log.txt
                   git config --global user.name "biud436"
                   git config --global user.email "biud436@gmail.com"
